@@ -1,3 +1,4 @@
+import Result from './components/Result/Result';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
@@ -5,6 +6,7 @@ const App = () => {
 		<div>
 			<GlobalStyles />
 			<h1>Curso de React</h1>
+			<Result></Result>
 		</div>
 	);
 };
