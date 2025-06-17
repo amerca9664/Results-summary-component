@@ -9,7 +9,7 @@ import {
 	StyledButton,
 	StyledTitleSumDiv
 } from './summary.styles';
-import { COLORS } from '../../styles/colors';
+import { COLORS } from '/styles/colors.js';
 
 const evalCicle = data => {
 	return (
