@@ -1,12 +1,15 @@
 import { createGlobalStyle } from "styled-components";
 import './normalize.css'
+import { COLORS } from "./colors";
 export const GlobalStyles = createGlobalStyle`
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
 body{
+
     font-family: "Hanken Grotesk", sans-serif;
+    background-color:${COLORS.Pale_blue};
 
 }
 
@@ -25,5 +28,27 @@ ul{
 a{
     text-decoration: none;
     color: inherit;
-}`
+}
+
+@media (min-width: 600px) {
+    .contenedor {
+        background-color: white;
+        max-width:700px;
+        padding-right:30px;
+        height: 500px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+
+    }
+
+    body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+`
 

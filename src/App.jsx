@@ -5,7 +5,7 @@ import Summary from './components/Summary/Summary.jsx';
 
 const App = () => {
 	return (
-		<div>
+		<div className='contenedor'>
 			<GlobalStyles />
 
 			<Result data={DATA}> </Result>

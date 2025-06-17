@@ -2,8 +2,9 @@ import styled from "styled-components";
 import { COLORS } from "../../styles/colors";
 
 const StyledDiv = styled.div`
-    width: 100vw;
-   
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
     padding: 20px 50px;
     display: flex;
     flex-direction: column;
@@ -12,6 +13,14 @@ const StyledDiv = styled.div`
     background:linear-gradient( ${COLORS.Light_slate_blue_background}, ${COLORS.Light_royal_blue_background});
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+
+    @media (min-width: 600px) {
+    & {
+        
+        margin-right:30px;
+        border-radius: 30px;
+    }
+}
 `
 const StyledLabelPYour = styled.label`
     margin-bottom: 20px;

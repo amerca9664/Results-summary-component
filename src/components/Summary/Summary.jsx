@@ -6,7 +6,8 @@ import {
 	StyledIcon,
 	StyledLabel,
 	StyledRes,
-	StyledButton
+	StyledButton,
+	StyledTitleSumDiv
 } from './summary.styles';
 import { COLORS } from '../../styles/colors';
 
@@ -18,7 +19,8 @@ const evalCicle = data => {
 				<StyledLabel color={COLORS[data.category]}>{data.category}</StyledLabel>
 			</StyledIconDiv>
 			<StyledRes>
-				<StyledLabel color='black'>{data.score} / 100</StyledLabel>
+				<StyledLabel color='black'>{data.score}</StyledLabel>
+				<StyledLabel color='gray'> / 100</StyledLabel>
 			</StyledRes>
 		</StyledEvalDiv>
 	);
@@ -28,8 +30,9 @@ const Summary = ({ data }) => {
 	return (
 		<>
 			<StyledSumDiv>
-				<span>Summary</span>
+				<StyledTitleSumDiv>Summary</StyledTitleSumDiv>
 				{data.map(evalCicle)}
+				<StyledButton>Continue</StyledButton>
 			</StyledSumDiv>
 		</>
 	);
