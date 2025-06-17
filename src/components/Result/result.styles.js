@@ -26,8 +26,8 @@ const StyledDivCircle = styled.div`
     align-items: center;
     text-align:center;
 
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 75px;
     background: linear-gradient(${COLORS.Violet_blue_circle}, ${COLORS.Persian_blue_circle});
     color: ${COLORS.Light_lavender};

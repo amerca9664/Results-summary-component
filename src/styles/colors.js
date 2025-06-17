@@ -1,8 +1,8 @@
 export const COLORS = {
-Light_red: 'hsl(0, 100%, 67%)',
-Orangey_yellow: 'hsl(39, 100%, 56%)',
-Green_teal: 'hsl(166, 100%, 37%)',
-Cobalt_blue: 'hsl(234, 85%, 45%)',
+Reaction: 'hsl(0, 100%, 67%)',
+Memory: 'hsl(39, 100%, 56%)',
+Verbal: 'hsl(166, 100%, 37%)',
+Visual: 'hsl(234, 85%, 45%)',
 
 Light_slate_blue_background: 'hsl(252, 100%, 67%)',
 Light_royal_blue_background: 'hsl(241, 81%, 54%)',
@@ -13,6 +13,10 @@ Persian_blue_circle: 'hsla(241, 72%, 46%, 0)',
 White: 'hsl(0, 0%, 100%)',
 Pale_blue: 'hsl(221, 100%, 96%)',
 Light_lavender: 'hsl(241, 100%, 89%)',
-Dark_gray_blue: 'hsl(224, 30%, 27%)'
+Dark_gray_blue: 'hsl(224, 30%, 27%)',
 
+ReactionDiv: 'hsla(0, 100.00%, 67.10%, 0.06)',
+MemoryDiv: 'hsla(39, 100.00%, 56.10%, 0.08)',
+VerbalDiv: 'hsla(166, 100.00%, 37.10%, 0.08)',
+VisualDiv: 'hsla(234, 85.20%, 44.90%, 0.07)'
 }
